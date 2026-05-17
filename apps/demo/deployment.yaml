@@ -20,7 +20,7 @@ spec:
       containers:
         - name: gitops-demo
 
-          image: 662252246197.dkr.ecr.us-east-1.amazonaws.com/gitops-demo:latest
+          image: 662252246197.dkr.ecr.us-east-1.amazonaws.com/gitops-demo/gitops-demo:latest
 
           ports:
             - containerPort: 3000
