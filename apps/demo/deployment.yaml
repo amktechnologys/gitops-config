@@ -5,7 +5,7 @@ metadata:
   name: gitops-demo
 
 spec:
-  replicas: 1
+  replicas: 2
 
   selector:
     matchLabels:
@@ -20,7 +20,7 @@ spec:
       containers:
         - name: gitops-demo
 
-          image: 662252246197.dkr.ecr.us-east-1.amazonaws.com/gitops-demo:latest
+          image: 662252246197.dkr.ecr.us-east-1.amazonaws.com/gitops-demo:1.0
 
           ports:
             - containerPort: 3000
